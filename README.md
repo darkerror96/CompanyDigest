@@ -44,7 +44,7 @@ simplicity.
 
 ```bash
 git clone https://github.com/darkerror96/CompanyDigest.git
-cd companydigest
+cd CompanyDigest
 ```
 
 ### **2. Create a Virtual Environment**
