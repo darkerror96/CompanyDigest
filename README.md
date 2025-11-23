@@ -20,7 +20,7 @@ The agent pulls data from:
 
 - **Yahoo Finance** (stock metrics & fundamentals)
 - **Google Search API** (company info & trending topics)
-- **News APIs** (latest relevant articles)
+- **GNews APIs** (latest relevant articles)
 
 It processes all sources, cleans the results, and produces a **single consolidated briefing** so users never need to
 visit multiple websites again. Designed as a personal AI assistant, this agent focuses on convenience, accuracy, and
@@ -33,7 +33,7 @@ simplicity.
 - Python
 - Yahoo Finance API
 - Google Search API
-- News API (or Google News RSS)
+- GNews API (Google News API)
 - LLM-based reasoning & tool orchestration
 
 ---
@@ -43,7 +43,7 @@ simplicity.
 ### **1. Clone the Repository**
 
 ```bash
-git clone <GITHUB_LINK>
+git clone https://github.com/darkerror96/CompanyDigest.git
 cd companydigest
 ```
 
@@ -67,7 +67,6 @@ Update .env file in the project root:
 
 ```ini
 GOOGLE_API_KEY = your_key_here
-YAHOO_API_KEY = your_key_here
 NEWS_API_KEY = your_key_here
 ```
 
